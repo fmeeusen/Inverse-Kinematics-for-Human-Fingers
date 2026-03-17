@@ -2293,8 +2293,7 @@ Cell[BoxData[
      RowBox[{"{", 
       RowBox[{"\[Theta]M0", ",", "\[Theta]P0"}], "}"}], "=", 
      RowBox[{"{", 
-      RowBox[{
-       RowBox[{"-", "1.5"}], ",", "3"}], "}"}]}], ";"}], 
+      RowBox[{"0.1", ",", "0.1"}], "}"}]}], ";"}], 
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"q", "=", 
@@ -2856,7 +2855,7 @@ Cell[BoxData[
       "close", " ", 
       RowBox[{"enough", "."}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
-    RowBox[{"mindist", "=", "0.05"}], ";"}], "\[IndentingNewLine]", 
+    RowBox[{"mindist", "=", "0.005"}], ";"}], "\[IndentingNewLine]", 
    RowBox[{"Clear", "[", "dist", "]"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"dist", "=", "1"}], ";"}], "\[IndentingNewLine]", 
@@ -3041,7 +3040,7 @@ Cell[BoxData[
           FractionBox[
            RowBox[{
             RowBox[{"-", "2"}], "\[Pi]"}], "3"], ",", 
-          RowBox[{"-", "0.1"}]}], "}"}]}], "]"}]}], ";", 
+          "0"}], "}"}]}], "]"}]}], ";", 
      "\[IndentingNewLine]", 
      RowBox[{"\[Delta]p", "=", 
       RowBox[{"p", "-", "pc"}]}], ";", "\[IndentingNewLine]", 
@@ -3080,8 +3079,8 @@ Cell[BoxData[
           RowBox[{"{", 
            RowBox[{
             RowBox[{"-", 
-             FractionBox["\[Pi]", "4"]}], ",", 
-            FractionBox["\[Pi]", "4"]}], "}"}], "]"}]}], ";", 
+             FractionBox["\[Pi]", "2"]}], ",", 
+            FractionBox["\[Pi]", "2"]}], "}"}], "]"}]}], ";", 
         "\[IndentingNewLine]", 
         RowBox[{
          RowBox[{"q", "[", 
@@ -3091,8 +3090,8 @@ Cell[BoxData[
           RowBox[{"{", 
            RowBox[{
             RowBox[{"-", 
-             FractionBox["\[Pi]", "4"]}], ",", 
-            FractionBox["\[Pi]", "4"]}], "}"}], "]"}]}], ";", 
+             FractionBox["\[Pi]", "2"]}], ",", 
+            FractionBox["\[Pi]", "2"]}], "}"}], "]"}]}], ";", 
         "\[IndentingNewLine]", 
         RowBox[{"notmoved", "=", "0"}], ";"}]}], "]"}], ";", " ", 
      "\[IndentingNewLine]", "\[IndentingNewLine]", 
@@ -3487,7 +3486,7 @@ Cell[BoxData[
       "close", " ", 
       RowBox[{"enough", "."}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
-    RowBox[{"mindist", "=", "0.05"}], ";"}], "\[IndentingNewLine]", 
+    RowBox[{"mindist", "=", "0.005"}], ";"}], "\[IndentingNewLine]", 
    RowBox[{"Clear", "[", "dist", "]"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"dist", "=", "1"}], ";"}], "\[IndentingNewLine]", 
@@ -4883,7 +4882,7 @@ Cell[BoxData[
            FractionBox[
             RowBox[{
              RowBox[{"-", "2"}], "\[Pi]"}], "3"], ",", 
-           RowBox[{"-", "0.1"}]}], "}"}]}], "]"}]}], ";", 
+           "0"}], "}"}]}], "]"}]}], ";", 
       "\[IndentingNewLine]", 
       RowBox[{
        RowBox[{"q", "[", 
@@ -4899,7 +4898,7 @@ Cell[BoxData[
            FractionBox[
             RowBox[{
              RowBox[{"-", "2"}], "\[Pi]"}], "3"], ",", 
-           RowBox[{"-", "0.1"}]}], "}"}]}], "]"}]}], ";", 
+           "0"}], "}"}]}], "]"}]}], ";", 
       "\[IndentingNewLine]", 
       RowBox[{"AppendTo", "[", 
        RowBox[{"intresults", ",", 
